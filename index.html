@@ -1,10 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yashraj Jagtap - Drone Enthusiast & Developer</title>
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,12 +23,14 @@
         </nav>
     </header>
 
-    <section id="about">
+    <!-- About Me Section with AOS Animation -->
+    <section id="about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         <h1>About Me</h1>
         <p>Hello! I'm Yashraj Jagtap, a passionate drone enthusiast and developer based in Dudulgaon, Moshi. With a strong interest in UAV technology and its applications, I specialize in drone programming, autonomous flight systems, and aerial photography. My goal is to explore innovative ways drones can improve industries such as agriculture, surveying, and cinematography.</p>
     </section>
 
-    <section id="skills">
+    <!-- Skills Section with AOS Animation -->
+    <section id="skills" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
         <h1>Skills</h1>
         <ul>
             <li><strong>UAV Piloting:</strong> Experienced in flying various drone models for both recreational and professional purposes.</li>
@@ -36,28 +41,29 @@
         </ul>
     </section>
 
-    <section id="projects">
+    <!-- Projects Section with AOS Animation -->
+    <section id="projects" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
         <h1>Drone Projects</h1>
         <div class="project-list">
-            <div class="project">
+            <div class="project" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Autonomous Drone for Crop Surveillance</h2>
                 <p><strong>Description:</strong> Developed a fully autonomous drone that performs crop surveillance using GPS and image recognition. The drone can identify plant health and soil conditions using thermal cameras.</p>
                 <p><strong>Technologies Used:</strong> Python, OpenCV, Raspberry Pi, DJI Drone SDK.</p>
                 <a href="#">GitHub Repo - Crop Surveillance Drone</a>
             </div>
-            <div class="project">
+            <div class="project" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Drone Mapping for Construction Site Surveying</h2>
                 <p><strong>Description:</strong> Built a system using drones to map construction sites and generate 3D models of topography for project planning.</p>
                 <p><strong>Technologies Used:</strong> DroneDeploy, Pix4D, DJI Phantom 4.</p>
                 <a href="#">Project Video - Drone Mapping</a>
             </div>
-            <div class="project">
+            <div class="project" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Aerial Photography for Real Estate</h2>
                 <p><strong>Description:</strong> Provided high-quality aerial footage for real estate properties, showcasing landscapes and properties from unique perspectives.</p>
                 <p><strong>Technologies Used:</strong> DJI Mavic Pro, Adobe Premiere Pro for video editing.</p>
                 <a href="#">Aerial Photography Portfolio</a>
             </div>
-            <div class="project">
+            <div class="project" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Drone Delivery System Prototype</h2>
                 <p><strong>Description:</strong> Worked on a prototype for a small-scale drone delivery system that autonomously delivers packages to customers within a defined radius.</p>
                 <p><strong>Technologies Used:</strong> Arduino, GPS, OpenCV.</p>
@@ -66,7 +72,8 @@
         </div>
     </section>
 
-    <section id="contact">
+    <!-- Contact Section with AOS Animation -->
+    <section id="contact" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="700">
         <h1>Contact Me</h1>
         <p><strong>Email:</strong> <a href="mailto:jagtapashok652@gmail.com">jagtapashok652@gmail.com</a></p>
         <p><strong>Phone:</strong> 8263000621</p>
@@ -77,6 +84,14 @@
     <footer>
         <p>&copy; 2025 Yashraj Jagtap | Drone Enthusiast & Developer</p>
     </footer>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
